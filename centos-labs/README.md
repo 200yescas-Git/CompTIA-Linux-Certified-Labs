@@ -1,6 +1,6 @@
-CentOS Stream 10 
+# CentOS Stream 10 
 
-#Objetivo
+## Objetivo
 Este laboratorio esta pensado para la administración de sistemas Linux basados en RED HAT ENTERPRISE LINIX (RHEL),así obtener el conocimiento en ambas familias ya que sus paquetes de gestionan de manera diferente y sobre todo RHEL es estándar en la industria
 
 ## ¿Por qué CentOS?
