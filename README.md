@@ -10,25 +10,25 @@ Respositorio dedicado a mis prácticas,laboratorios y temas de estudios para la 
 - Aplicar la seguridad en los sistemas para mantener seguro nuestro sistema
 
 ## Temas Estudiados
--Estructura del sistema
--Comandos del sistema linux
--Gestión de usuarios y permisos para escalar privilegios
--Administración de procesos
--Networking 
--Servicios
--Shell Scripting
--Gestión de paquetes
--logs del sistema
+- Estructura del sistema
+- Comandos del sistema linux
+- Gestión de usuarios y permisos para escalar privilegios
+- Administración de procesos
+- Networking 
+- Servicios
+- Shell Scripting
+- Gestión de paquetes
+- logs del sistema
 
 ## Herramientas
--VMware Workstation
--Bash
--SSH
--Git
--Github
+- VMware Workstation
+- Bash
+- SSH
+- Git
+- Github
 
 ## Estado del Proyecto
--En vía de desarrollo
+- En vía de desarrollo
 
 ##
 Este repositorio será mi ruta de aprendizaje y Documentación para mi aprendizaje profundo en linux,Administración de Sistemas.redes y Automatización.
