@@ -29,12 +29,14 @@ La petición es seleccionar nuestra imágen ISO oficial de Debian 13.4.0,buscand
 
 ### 4.Instalación Virtual
 - Tipo de instalación: sin entorno gráfico
-- Idioma: Spanish México
-- Keyboard: Latinoamericano
+- Idioma: Spanish
+- ubicación geográfica: México
+- keyboard: Latinoamericano
 - Nombre de la máquina: Debian
 - Nombre de dominio: sin asignar
-- Clave privada: ********
-- Nombre completo para el nuevo usuario: ********
+- Configuración de usuario root: ********
+- Nombre completo para el nuevo usuario no root : ********
+- Configuración del usuario no root: ********
 - Zona Horaria:********
 
 #### 5.Particionado de Discos
@@ -52,5 +54,34 @@ La petición es seleccionar nuestra imágen ISO oficial de Debian 13.4.0,buscand
 - Instalación de arranque GRUB para unidad principal: Sí
 - Dispositvo de arranaque: Partición creada /dev/sda
 - Finalizamos para arrancar con el sistema operativo linux
+
+## Configuración Post-Instalación debian 13.4.0 (Trixie)
+Se realizaron configuraciones básicas del sistema 
+- Busqueda de servidores remotos para descarga y gestión de paquetes
+- Para configuraciones del sistema debe ser en estado root
+- Verificación de paquetes y actualizaciones
+
+```
+sudo
+nano /etc/apt/sources.list
+```
+```
+apt-get update
+```
+## Eroores y soluciones del sistema Debian 13.4.0 (Trixie)
+- Erorr en la busqueda de paquetes del servidor remoto,APT-intenta leer paquetes de CD-ROM pero ya esta montado y no lo necesitamos más
+- Solución:Comentar la linea del servidor Y guardar cambios
+```
+#deb cdrom:[Debian GBU/Linux 13.4.0 _Trixie_ - Official amd64 DVD Binary-1 with firmware 20260314-11:54]/ trixie contrib main
+```
+```
+CTRL+O
+ENTER
+CTRL+X
+```
+
+## Evidencias del Proceso de instalación de Debian 13.4.0 (Trixie)
+Las capturas del proceso de encuentran en la carpeta:
+
 
 
