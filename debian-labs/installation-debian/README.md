@@ -82,6 +82,30 @@ CTRL+X
 
 ## Evidencias del Proceso de instalación de Debian 13.4.0 (Trixie)
 Las capturas del proceso de encuentran en la carpeta:
+```
+screenshots/debian-installation
+```
+Incluyen:
+- Creación de la VM
+- Proceso de instalación
+- Uso de la línea de comandos
+- Comandos para la consulta y actualización de paquetes
+- Erorres encontrados y soluciones
 
+## Aprendizaje obtenido del proceso
+- Instalación completa de Debian 13.4.0 Trixie
+- configuración básica de un sistema linux
+- Uso de la terminal de linux
+- Estructura de una orden dentro del sistema linux
+- Detección de error en servidores remotos de actualización de paquetes
+- Corrección de errores
+- Usuarios y permisos
 
+## Estado del Laboratorio
+- Instalación completa
+- Sistema funcional para pruebas futuras
+- Arranque para administración del sistema linux y obtención de la certificación CompTIA Linux+
+
+## Notas
+Este laboratorio forma parte de mis prácticas de administración en sistemas linux y preparación para roles SysAdmin/DevOps
 
