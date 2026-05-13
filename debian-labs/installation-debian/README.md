@@ -68,7 +68,7 @@ nano /etc/apt/sources.list
 ```
 apt-get update
 ```
-## Eroores y soluciones del sistema Debian 13.4.0 (Trixie)
+## Errores y soluciones del sistema Debian 13.4.0 (Trixie)
 - Erorr en la busqueda de paquetes del servidor remoto,APT-intenta leer paquetes de CD-ROM pero ya esta montado y no lo necesitamos más
 - Solución:Comentar la linea del servidor Y guardar cambios
 ```
