@@ -27,4 +27,30 @@ La petición es seleccionar nuestra imágen ISO oficial de Debian 13.4.0,buscand
 - Drivers: Auto detect
 - Selección del adaptador de red: NAT
 
-### 4.Tipo de instalación
+### 4.Instalación Virtual
+- Tipo de instalación: sin entorno gráfico
+- Idioma: Spanish México
+- Keyboard: Latinoamericano
+- Nombre de la máquina: Debian
+- Nombre de dominio: sin asignar
+- Clave privada: ********
+- Nombre completo para el nuevo usuario: ********
+- Zona Horaria:********
+
+#### 5.Particionado de Discos
+- Método de particionado: Guiado para utilizar todo el disco asignado
+- Elegir disco a particionar: default asigando a la máquina virtual para el sistema operativo Debian 13.4.0 Trixie
+- Esquema del particionado: Todos los ficheros en una partición (recomendado para novatos)
+- Resumen del particionado de discos: Finalizar el particionado y escribir los cambios en el disco
+- Confirmación: sí
+- Instalar paquetes adicionales: No
+
+### 6.-Selección de paquetes
+- Tenemos que participar en la encuesta sobre el uso de los paquetes del sistema
+- Tipo de entorno de escritorio: Xfce para no utilizar demasiados recursos del sistema
+- SSH server: será instalado de manera práctica para hacer pruebas de laboratorio
+- Instalación de arranque GRUB para unidad principal: Sí
+- Dispositvo de arranaque: Partición creada /dev/sda
+- Finalizamos para arrancar con el sistema operativo linux
+
+
