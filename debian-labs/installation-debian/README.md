@@ -83,7 +83,7 @@ CTRL+X
 ## Evidencias del Proceso de instalación de Debian 13.4.0 (Trixie)
 Las capturas del proceso de encuentran en la carpeta:
 ```
-screenshots/debian-installation
+assets/screenshots/debian-installation
 ```
 Incluyen:
 - Creación de la VM
