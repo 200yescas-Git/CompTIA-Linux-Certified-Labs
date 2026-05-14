@@ -15,5 +15,5 @@ La creación de este centro de pruebas para la administración de sistemas linux
 
 ## Proceso de instalación del sistema CentOS Stream 10
 
-### 1- Creación de una nueva VMware
-- 
+### 1- Create a New Virtual Machine
+
