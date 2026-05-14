@@ -7,6 +7,7 @@ Realizar la instalación del sistema operativo linux Debian para realizar práct
 - Máquina Virtual: VMware Workstation 16 Player
 - Sistema operativo: Debian 13.4.0 (Trixie)
 - CPU: 2 cores
+- Arquitectura: 64 bits
 - RAM: 4 GB
 - Disco: 30 GB
 - Red: NAT
