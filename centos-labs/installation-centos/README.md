@@ -15,5 +15,6 @@ La creación de este centro de pruebas para la administración de sistemas linux
 
 ## Proceso de instalación del sistema CentOS Stream 10
 
-### 1- Create a New Virtual Machine
-
+### 1. Create a New Virtual Machine
+- Vamos a crear una nueva máquina virtual para poder instalar nuestro sistema operativo linux y llevar acabo pruebas
+### 2. 
