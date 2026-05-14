@@ -51,5 +51,13 @@ Vamos a crear una nueva máquina virtual para poder instalar nuestro sistema ope
 > Install CentOS 10 Stream in basic graphics mode
 Seleccionar la primera opción ya que en la segunda necesitamos el controlador VGA, en caso de equivocación la muestra de pantalla es un bug.Para continuar regresar a la pantalla anterior y seleccionar la ópcion de instalación normal.
 
-## 1. 
+### 1. Selección del idioma para su instalación
+- Apartado para seleccionar el idioma de instalación y comodidad
+- Puede cambiarse más adelante para mejor experiencia o por requerimientos
+
+### 2. Instalación de Teclado
+- En la ruta de instalación seleccionar el teclado para agregar una distribución correspondiente
+- En este caso es Latinoamericano e inglés (EE.UU.)
+
+- [!Note] 
 
