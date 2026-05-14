@@ -8,4 +8,6 @@ La creación de este centro de pruebas para la administración de sistemas linux
 - Sistema Operativo: CentOS Stream 10
 - Arquitectura: ARM64 (aarch64)
 - File: Centos Stream 10 DVD ISO
+- Disco duro VM: 30 GB
+- Memoria RAM: 2 GB
 - 
