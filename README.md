@@ -1,4 +1,3 @@
-# Banner 
 <p align="center">
   <img src="assets/banners/comptia-linux-banner.png">
 </p>
