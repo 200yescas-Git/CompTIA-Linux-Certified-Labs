@@ -6,5 +6,6 @@ La creación de este centro de pruebas para la administración de sistemas linux
 ## Entorno utilizado
 - Máquina virtual: VMware Workstation 16 Player
 - Sistema Operativo: CentOS Stream 10
+- Arquitectura: ARM64 (aarch64)
 - 
 - 
