@@ -101,6 +101,7 @@ Incluyen:
 - Detección de error en servidores remotos de actualización de paquetes
 - Corrección de errores
 - Usuarios y permisos
+- Nombre del instalador incluido en la ISO: Debian-Installer
 
 ## Estado del Laboratorio
 - Instalación completa
