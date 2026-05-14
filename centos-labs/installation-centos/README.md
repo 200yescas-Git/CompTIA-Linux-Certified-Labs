@@ -59,6 +59,8 @@ Seleccionar la primera opción ya que en la segunda necesitamos el controlador V
 - En la ruta de instalación seleccionar el teclado para agregar una distribución correspondiente
 - En este caso es Latinoamericano e inglés (EE.UU.)
 
-> [ !IMPORTANT ]
-> 
+> [!IMPORTANT]
+> Fecha y hora son detectados automáticamente sin configurar
+
+
 
