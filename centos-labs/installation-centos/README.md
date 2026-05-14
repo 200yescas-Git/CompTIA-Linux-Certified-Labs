@@ -10,4 +10,10 @@ La creación de este centro de pruebas para la administración de sistemas linux
 - File: Centos Stream 10 DVD ISO
 - Disco duro VM: 30 GB
 - Memoria RAM: 2 GB
+- Red: NAT
+- Driver Auto Detect
+
+## Proceso de instalación del sistema CentOS Stream 10
+
+### 1- Creación de una nueva VMware
 - 
