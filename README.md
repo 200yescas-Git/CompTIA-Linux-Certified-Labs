@@ -1,3 +1,8 @@
+# Banner 
+<p align="center">
+  <img src="assets/banners/comptia-linux-banner.png">
+</p>
+
 # CompTIA-Linux-Certified-Labs
 CentOs-Debian Distribution
 Respositorio dedicado a mis prácticas,laboratorios y temas de estudios para la preparación y formalización de mis conocimientos GNU/Linux en la certificación de CompTIA Linux+.
