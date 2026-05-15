@@ -49,6 +49,7 @@ Vamos a crear una nueva máquina virtual para poder instalar nuestro sistema ope
 > Install CentOS stream 10
 - si seleccionamos la opción Troubleshooting el modo es el siguiente:
 > Install CentOS 10 Stream in basic graphics mode
+
 Seleccionar la primera opción ya que en la segunda necesitamos el controlador VGA, en caso de equivocación la muestra de pantalla es un bug.Para continuar regresar a la pantalla anterior y seleccionar la ópcion de instalación normal.
 
 ### 1. Selección del idioma para su instalación
@@ -77,8 +78,17 @@ Seleccionar la primera opción ya que en la segunda necesitamos el controlador V
 - Punto de montaje: /boot
 - Tipo de dispositivo: Partición estándar
 - Sistema de archivos: ext4
+- Nuevo punto de montaje: /
+Las características de configuración son similares a /boot,con la diferencia de no asignar capacidad ya que el sistema automáticamente le proporciona lo restante.Dar click en hecho para aceptar cambios y finalizar el destino de instalación del sistema
 
 > [!NOTE]
 > La configuración personalizada es una práctica usada en Enterprise para administración avanzada en sistemas linux,por ello la separación /boot del sistema operativo nos da un entorno diferente para administrar correctamente nuestro servidor.Algunos puntos importantes de esta configuración son:
-> * Estabilidad 
+> * Estabilidad y seguridad
+> * compatibilidad con GRUB/BIOS/UEFI
+> * Facilidad en administración avanzada
+> * Entorno Enterprise como Red Hat Enterprise Linux (RHEL)
+
+### 6. Configuración de red
+- 
+
 
