@@ -87,8 +87,15 @@ Las características de configuración son similares a /boot,con la diferencia d
 > * compatibilidad con GRUB/BIOS/UEFI
 > * Facilidad en administración avanzada
 > * Entorno Enterprise como Red Hat Enterprise Linux (RHEL)
+Cifrar /boot obtendremos problemas con el arranque del sistema o simplemente no lo ejecutará,así que es recomendable no hacerlo en el punto de montaje
 
 ### 6. Configuración de red
+- Ir al apartado de red para encender el switch
 - 
+
+> [!NOTE]
+> Se encontró un error de configuración de red dentro de VMware Workstattion,la nueva configuración del adaptador ethernet fue activar la opción `connect at power on`
+
+
 
 
