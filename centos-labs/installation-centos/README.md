@@ -70,5 +70,15 @@ Seleccionar la primera opción ya que en la segunda necesitamos el controlador V
 - Seleccionar instalación mínima para obtener un sistema más puro y mejorar rendimiento
 - Optar por las herramientas de seguridad son algo vital para un servidor
 
-### 5.
+### 5. Destino de instalación de CentOS Stream 10
+- Configuración de almacenamiento personalizado
+- Creación de un nuevo particionado de forma manual
+- Capacidad deseada: 500 MB
+- Punto de montaje: /boot
+- Tipo de dispositivo: Partición estándar
+- Sistema de archivos: ext4
+
+> [!NOTE]
+> La configuración personalizada es una práctica usada en Enterprise para administración avanzada en sistemas linux,por ello la separación /boot del sistema operativo nos da un entorno diferente para administrar correctamente nuestro servidor.Algunos puntos importantes de esta configuración son:
+> * Estabilidad 
 
