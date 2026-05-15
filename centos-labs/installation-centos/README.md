@@ -91,11 +91,16 @@ Cifrar /boot obtendremos problemas con el arranque del sistema o simplemente no 
 
 ### 6. Configuración de red
 - Ir al apartado de red para encender el switch
-- 
 
 > [!NOTE]
 > Se encontró un error de configuración de red dentro de VMware Workstattion,la nueva configuración del adaptador ethernet fue activar la opción `connect at power on`
 
+### 7. Creación de usuario
+- Dentro del apartado asignar nombre completo y usuario
+- Crear una contraseña y confirmar
 
+> [!NOTE]
+> Las contraseñas siempre deben ser súper fuertes y no débiles que se encuentren en diccionarios de fuerza bruta.Se ejecutarán distintos laboratorios para pruebas por ello asignamos contraseñas de fácil memorización ya que no exponemos datos sensibles.
+> Las buenas prácticas siempre deben ser prioridad en entornos enterprise y de uso cotidiano para evitar ataques cibernéticos
 
 
