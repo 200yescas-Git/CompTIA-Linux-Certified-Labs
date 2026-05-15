@@ -62,5 +62,13 @@ Seleccionar la primera opción ya que en la segunda necesitamos el controlador V
 > [!IMPORTANT]
 > Fecha y hora son detectados automáticamente sin configurar
 
+### 3. Distribución del Teclado
+- Agregar la distribucón de nuestro teclado preferido para trabajar con el sistema instalado
+- Revisar características del teclado físco para elegir la distribución adecuada
 
+### 4. Selección del software de instalación
+- Seleccionar instalación mínima para obtener un sistema más puro y mejorar rendimiento
+- Optar por las herramientas de seguridad son algo vital para un servidor
+
+### 5.
 
