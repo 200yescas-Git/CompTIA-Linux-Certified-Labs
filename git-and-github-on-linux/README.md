@@ -59,7 +59,7 @@ sudo apt update
 
 ## Errores y solución durante la instalación de Git en Debian
 
-### E
+### 1. Usuario sin permiso sudo
 Durante la actualización de los paquetes del sistema el usuario debianlabs no contaba con permisos sudo por ende se optó ingresar con usuario root y agrgear al grupo de sudo con los siguientes comandos.
 
 ```bash
@@ -81,4 +81,6 @@ usermod -aG sudo debianlabs
 ```bash
 reboot
 ```
+### 2. Paquete de instalación de Git no encontrado
+Cuando el sistema no encuentra los paquetes de instalación de algún software el problema radica en mal escritura del comando y negatividad en conexión a internet
 
