@@ -122,10 +122,19 @@ deb http://deb.debian.org/debian trixie-updates main contrib non-free non-free-f
 deb http://security.debian.org/debian-security trixie-security main contrib non-free non-free-firmware
 ```
 
-- Limpiar el sistema de paquetes de forma saludable con los siguientes comandos.
+- Limpiar el sistema de forma saludable.
 
 ```bash
 sudo apt clean
 sudo rm -rf /var/lib/apt/lists/*
 sudo apt update
 ```
+- Debian 13.4.0 Trixie nos indica que existen paquetes por actualizar pero ya puede conectarse a ellos.
+- Se recomienda actualizar con el comando:
+
+```bash
+sudo apt upgrade -y
+```
+
+- De esta forma nuestros paquetes están actualizados para futuras instalaciones de software en nuestro sistema.
+
