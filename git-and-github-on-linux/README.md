@@ -82,5 +82,24 @@ usermod -aG sudo debianlabs
 reboot
 ```
 ### 2. Paquete de instalación de Git no encontrado
-Cuando el sistema no encuentra los paquetes de instalación de algún software el problema radica en mal escritura del comando y negatividad en conexión a internet
+Cuando el sistema no encuentra los paquetes de instalación de algún software el problema radica en mal escritura del comando y negatividad en conexión a internet.
 
+- Rectificar si la estructura del comando es correcta.
+
+```bash
+sudo apt install git -y
+```
+- Revisar conexión a internet
+```bash
+ping -c 4 google.com
+```
+- La conexión a internet es estable y activa,si el problema persiste revisar los repositorios.
+
+```bash
+cat /etc/apt/sources.list
+```
+- Tenemos comentada la línea deb cdrom del único repositorio que es del DVD/ISO y es lo correcto ya que no se necesita para instalar paquetes online.
+```
+#deb cdrom:[Debian GNU/Linux 13.4.0 _Trixie_ - Official amd64 DVD Binary-1 with firmware 20260314-11:54]/ trixie contrib main
+```
+- 
