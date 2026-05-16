@@ -101,7 +101,11 @@ Cifrar /boot obtendremos problemas con el arranque del sistema o simplemente no 
 
 > [!NOTE]
 > Las contraseñas siempre deben ser súper fuertes y no débiles que se encuentren en diccionarios de fuerza bruta.Se ejecutarán distintos laboratorios para pruebas por ello asignamos contraseñas de fácil memorización ya que no exponemos datos sensibles.
-
 > Las buenas prácticas siempre deben ser prioridad en entornos enterprise y de uso cotidiano para evitar ataques cibernéticos
+
+### 8. Cuenta root
+- Crear cuenta root y confirmar
+- No permitir el acceso SSH de root con contraseña
+
 
 
