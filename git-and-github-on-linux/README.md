@@ -46,13 +46,20 @@ sudo apt install git -y
 ```
 
 ## Instalación de Git en Debian
-- Arrancar máquina virtual de Debian para iniciar proceso
+
+### 1. Arrancar la máquina virtual de Debian
+
 - Actualizar el sistema con el siguiente comando:
 
 ```bash
 sudo apt update
 ```
+
+
+
 ## Errores y solución durante la instalación de Git en Debian
+
+### E
 Durante la actualización de los paquetes del sistema el usuario debianlabs no contaba con permisos sudo por ende se optó ingresar con usuario root y agrgear al grupo de sudo con los siguientes comandos.
 
 ```bash
@@ -63,13 +70,13 @@ sudo -
 groups debianlabs
 ```
 
-Agregar al grupo si no contiene sudo
+- Agregar al grupo si no contiene sudo
 
 ```bash
 usermod -aG sudo debianlabs
 ```
 
-Reiniciar el sistema ya que inicando de nuevo cargan correctamente los sistemas de administración
+- Reiniciar el sistema ya que inicando de nuevo cargan correctamente los sistemas de administración
 
 ```bash
 reboot
