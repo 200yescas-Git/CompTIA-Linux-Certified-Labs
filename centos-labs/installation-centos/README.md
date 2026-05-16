@@ -156,4 +156,6 @@ assets/screenshots/centos-installation
 - El laboratorio se encuentra listo para continuar con las prácticas
 - CentOS Stream 10 en su estado más crudo y puro para un mayor rendimiento
 
+## Notas
+Este laboratorio forma parte de mis prácticas de administración en sistemas linux y preparación para roles SysAdmin/DevOps
 
