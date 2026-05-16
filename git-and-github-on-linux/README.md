@@ -47,7 +47,7 @@ sudo apt install git -y
 
 ## Instalación de Git en Debian
 - Arrancar máquina virtual de Debian para iniciar proceso
-- Actualizar el sistema
+- Actualizar el sistema con el siguiente comando:
 
 ```bash
 sudo apt update
