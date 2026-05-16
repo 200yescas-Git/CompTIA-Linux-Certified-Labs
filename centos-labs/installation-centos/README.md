@@ -135,5 +135,9 @@ Después de corregir la estructura de particionado, la instalación del sistema 
 | / | 23.15 GiB | ext4 |
 
 ## Evidencias del Proceso de instalación
-Adjunto evidencias del proceso de instalación de CentOS Stream 10 
+Adjunto evidencias del proceso de instalación de CentOS Stream 10,se encuentra en la carpeta siguiente:
+```
+assets/screenshots/centos-installation
+
+```
 
