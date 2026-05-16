@@ -122,3 +122,10 @@ deb http://deb.debian.org/debian trixie-updates main contrib non-free non-free-f
 deb http://security.debian.org/debian-security trixie-security main contrib non-free non-free-firmware
 ```
 
+- Limpiar el sistema de paquetes de forma saludable con los siguientes comandos.
+
+```bash
+sudo apt clean
+sudo rm -rf /var/lib/apt/lists/*
+sudo apt update
+```
