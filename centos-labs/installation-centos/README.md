@@ -147,4 +147,9 @@ assets/screenshots/centos-installation
 - Errores y soluciones de la instalación
 
 ## Aprendizaje de la Práctica
-- 
+- Particionado manual
+- Puntos de montaje en sistemas linux
+- Troubleshooting
+- Estructura del sistema
+
+## Estado de
