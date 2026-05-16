@@ -107,5 +107,9 @@ Cifrar /boot obtendremos problemas con el arranque del sistema o simplemente no 
 - Crear cuenta root y confirmar
 - No permitir el acceso SSH de root con contraseña
 
+> [!WARNIG]
+> El usuario root es el principal blanco en ataques de hackers y conectarlo con SSH es entregarles las llaves de total acceso
 
+### 9. Finalizar instalación
+- 
 
