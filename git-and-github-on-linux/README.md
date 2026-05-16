@@ -102,4 +102,6 @@ cat /etc/apt/sources.list
 ```
 #deb cdrom:[Debian GNU/Linux 13.4.0 _Trixie_ - Official amd64 DVD Binary-1 with firmware 20260314-11:54]/ trixie contrib main
 ```
-- 
+- Agregar repositorios de manera manual
+
+
