@@ -134,4 +134,6 @@ Después de corregir la estructura de particionado, la instalación del sistema 
 | swap | 2 GiB | swap |
 | / | 23.15 GiB | ext4 |
 
+## Evidencias del Proceso de instalación
+Adjunto evidencias del proceso de instalación de CentOS Stream 10 
 
