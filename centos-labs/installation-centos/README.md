@@ -140,4 +140,11 @@ Adjunto evidencias del proceso de instalación de CentOS Stream 10,se encuentra 
 assets/screenshots/centos-installation
 
 ```
+## Incluye
+- Descarga del DVD ISO en la página oficial de CentOS
+- Creación de la VMware para montar el sistema operativo
+- Proceso de instalación por sección
+- Errores y soluciones de la instalación
 
+## Aprendizaje de la Práctica
+- 
