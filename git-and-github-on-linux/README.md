@@ -18,4 +18,17 @@ En el área de SysAdmin, DevOps e infraestructura, Git y GitHub no solo se utili
 - Controlar cambios en automatizaciones
 - Colaborar en equipos de infraestructura
 
-## 
+## Diferencia entre gestión de paquetes en Debian y CentOS Stream 10
+
+Los sistemas basados en Debian utilizan el gestor de paquetes `apt` para instalar, actualizar y administrar software.
+
+CentOS Stream 10 utiliza el gestor de paquetes `dnf`, el cual cumple la misma función de administración de paquetes en sistemas basados en Red Hat Enterprise Linux.
+
+Ambos gestores permiten:
+- instalar paquetes
+- actualizar el sistema
+- eliminar software
+- administrar dependencias
+
+## Instalación de Git en Debian
+
