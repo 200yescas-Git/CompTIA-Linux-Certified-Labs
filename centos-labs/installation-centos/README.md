@@ -114,5 +114,24 @@ Cifrar /boot obtendremos problemas con el arranque del sistema o simplemente no 
 - Comenzar la instalación del sistema operativo una vez terminada la configuraión completa
 - Esperar y reiniciar la máquina para poder iniciar con las prácticas
 
+# Errores y soluciones de la instalación de CentOS Stream 10
+El sistema operativo linux usado por el temario de la certificación es CentOS 7,los puntos de montaje fueron `/boot` y `/`.Para la instalación de CentOS Stream 10 el sistema de instalación necesita de 2 puntos de instalación nuevos
+## Solución aplicada
+
+Se realizó nuevamente la configuración manual de particiones agregando correctamente:
+
+- `/boot`
+- `/`
+- `/biosboot`
+- `swap`
+
+Después de corregir la estructura de particionado, la instalación del sistema se completó correctamente
+
+| Punto de montaje / Tipo | Tamaño | Filesystem / Tipo |
+|---|---|---|
+| biosboot | 1024 KiB | biosboot |
+| /boot | 1024 MiB (1 GiB) | ext4 |
+| swap | 2 GiB | swap |
+| / | 23.15 GiB | ext4 |
 
 
