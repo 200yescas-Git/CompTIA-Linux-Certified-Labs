@@ -111,5 +111,8 @@ Cifrar /boot obtendremos problemas con el arranque del sistema o simplemente no 
 > El usuario root es el principal blanco en ataques de hackers y conectarlo con SSH es entregarles las llaves de total acceso
 
 ### 9. Finalizar instalación
-- 
+- Comenzar la instalación del sistema operativo una vez terminada la configuraión completa
+- Esperar y reiniciar la máquina para poder iniciar con las prácticas
+
+
 
