@@ -89,7 +89,9 @@ Cuando el sistema no encuentra los paquetes de instalación de algún software e
 ```bash
 sudo apt install git -y
 ```
+
 - Revisar conexión a internet
+
 ```bash
 ping -c 4 google.com
 ```
@@ -98,10 +100,23 @@ ping -c 4 google.com
 ```bash
 cat /etc/apt/sources.list
 ```
+
 - Tenemos comentada la línea deb cdrom del único repositorio que es del DVD/ISO y es lo correcto ya que no se necesita para instalar paquetes online.
+
 ```
 #deb cdrom:[Debian GNU/Linux 13.4.0 _Trixie_ - Official amd64 DVD Binary-1 with firmware 20260314-11:54]/ trixie contrib main
 ```
 - Agregar repositorios de manera manual
 
+```bash
+sudo nano /etc/apt/sources.list
+```
+
+- Escribir los siguientes repositorios oficiales.
+
+```
+deb http://deb.debian.org/debian bookworm main contrib non-free non-free-firmware
+deb http://deb.debian.org/debian bookworm-updates main contrib non-free non-free-firmware
+deb http://security.debian.org/debian-security bookworm-security main contrib non-free non-free-firmware
+```
 
