@@ -152,4 +152,8 @@ assets/screenshots/centos-installation
 - Troubleshooting
 - Estructura del sistema
 
-## Estado de
+## Estado del laboratorio
+- El laboratorio se encuentra listo para continuar con las prácticas
+- CentOS Stream 10 en su estado más crudo y puro para un mayor rendimiento
+
+
