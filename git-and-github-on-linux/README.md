@@ -58,3 +58,20 @@ Durante la actualización de los paquetes del sistema el usuario debianlabs no c
 ```bash
 sudo -
 ```
+
+```bash
+groups debianlabs
+```
+
+Agregar al grupo si no contiene sudo
+
+```bash
+usermod -aG sudo debianlabs
+```
+
+Reiniciar el sistema ya que inicando de nuevo cargan correctamente los sistemas de administración
+
+```bash
+reboot
+```
+
