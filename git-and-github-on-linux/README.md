@@ -30,5 +30,25 @@ Ambos gestores permiten:
 - eliminar software
 - administrar dependencias
 
-## Instalación de Git en Debian
 
+## Permisos administrativos para instalar software
+
+En Linux, para instalar software es necesario contar con privilegios administrativos.
+
+Esto se debe a que la instalación de paquetes modifica directorios y archivos importantes del sistema operativo.
+
+Por seguridad, normalmente no se recomienda trabajar directamente como `root`. En su lugar, se utiliza el comando `sudo` para ejecutar tareas administrativas de manera temporal.
+
+Ejemplo en Debian:
+
+```bash
+sudo apt install git -y
+```
+
+## Instalación de Git en Debian
+- Arrancar máquina virtual de Debian para iniciar proceso
+- Actualizar el sistema
+
+```bash
+sudo apt update
+```
