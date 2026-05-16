@@ -55,6 +55,10 @@ sudo apt install git -y
 sudo apt update
 ```
 
+- Instalar Git desde el repositorio
+```bash
+sudo apt install git -y
+```
 
 
 ## Errores y solución durante la instalación de Git en Debian
